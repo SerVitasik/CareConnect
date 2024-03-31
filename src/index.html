@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html',{ title:"Care Connect" })
+
+  <body>
+    <div class="wrapper">
+      @@include('html/header.html',{})
+      <main class="page">
+        <section class="page__main main-block">
+          <div class="main-block__container">
+            <div class="main-block__content">
+              <h1 class="main-block__title">
+                Солідарність в дії:<br />
+                Волонтерство для миру
+              </h1>
+              <div class="main-block__text">
+                Об'єднані волонтерами, <span>міцніші</span> за
+                <span>будь-яку</span>
+                військову <span>машину</span>
+              </div>
+              <a href="#" class="main-block__button">Долучитися до зборів</a>
+            </div>
+            <div class="main-block__image">
+              <img src="./img/mainblock/map.svg" alt="Ukrainian map" />
+            </div>
+          </div>
+          <div class="main-block__gatheringcount gatheringcount">
+            <div class="gatheringcount__inprocess">
+              <div class="gatheringcount__number">1,009</div>
+              <div class="gatheringcount__description">Зборів у процесі:</div>
+            </div>
+            <div class="gatheringcount__count">
+              <div class="gatheringcount__number">₴10,174,012</div>
+              <div class="gatheringcount__description">
+                Грошей зібано за весь час:
+              </div>
+            </div>
+            <div class="gatheringcount__ended">
+              <div class="gatheringcount__number">1,009</div>
+              <div class="gatheringcount__description">Зборів завершено:</div>
+            </div>
+          </div>
+        </section>
+      </main>
+      @@include('html/footer.html',{})
+    </div>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
